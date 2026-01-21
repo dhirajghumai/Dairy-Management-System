@@ -1,0 +1,49 @@
+/* Monthly Bill Main Container */
+.monthly-bill {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.monthly-bill h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+.monthly-bill input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+.monthly-bill button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.monthly-bill button:hover {
+  background-color: #1b5e20;
+}
+
+/* Result section */
+.result {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}

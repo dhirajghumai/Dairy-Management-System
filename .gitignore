@@ -1,0 +1,12 @@
+# IntelliJ / IDE files
+.idea/
+
+# Maven build
+target/
+
+# Frontend (React / Vite)
+frontend/**/node_modules/
+frontend/**/dist/
+
+# OS files
+.DS_Store

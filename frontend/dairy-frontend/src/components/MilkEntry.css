@@ -1,0 +1,104 @@
+
+ /* page center */
+.page-center {
+  min-height: calc(100vh - 120px); /* navbar असल्यानं */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+  background: #f4f6fb;
+}
+
+/* card base */
+.milk-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* ⭐ MEDIUM SIZE */
+.milk-card.medium {
+  width: 480px;        /* 👉 medium */
+}
+
+/* inputs */
+.milk-card input,
+.milk-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* save button */
+.save-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2f7cf6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #1e63d6;
+}
+
+
+/* TITLE */
+.card h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 22px;
+}
+
+/* LABELS */
+.card label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* INPUTS */
+.card input,
+.card select {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+}
+
+.card input:disabled {
+  background: #f1f1f1;
+}
+
+/* BUTTON */
+.card button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  background: #2b78e4;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #1f5fc1;
+}
