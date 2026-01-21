@@ -1,6 +1,3 @@
-Perfect 👍
-Below is a **simple, clean, beginner-friendly README** for your project.
-Just **copy–paste** this into your `README.md` on GitHub.
 
 ---
 
